@@ -1,0 +1,19 @@
+<p>
+  <strong>Name:</strong>
+  <%= @planet.name %>
+</p>
+
+<p>
+  <strong>Light years from earth:</strong>
+  <%= @planet.distance_from_earth %>
+</p>
+
+<p>
+  <strong>Nearest star:</strong>
+  <%= @planet.nearest_star %>
+</p>
+
+<img class="show-img" src="<%= @planet.planet_img %>" alt="<%= @planet.name%>">
+
+<hr>
+<%= link_to 'Back', planets_path %>

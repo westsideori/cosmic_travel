@@ -1,0 +1,23 @@
+<h1>Planets</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Light years from earth</th>
+      <th>Nearest star</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @planets.each do |planet| %>
+      <tr>
+        <td><%= planet.name %></td>
+        <td><%= planet.distance_from_earth %></td>
+        <td><%= planet.nearest_star %></td>
+        <td><%= link_to 'Show', planet %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
