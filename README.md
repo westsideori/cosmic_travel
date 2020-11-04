@@ -17,7 +17,7 @@ It is the year 2100 and you run an interplanetary space travel agency.  You are 
 
     - A user should be able to see a list of all scientists
 
-    - Clicking on a scientist should take you to a detail page about the scientist, including listing all the planets they have visited.
+    - Clicking on a scientist should take you to a detail page about the scientist. This detail page should list all the planets they have visited and the name of the mission that took them there.
 
     - A user should be able to create a new scientist.
         - Scientists must have a name and a field of study
@@ -33,4 +33,3 @@ It is the year 2100 and you run an interplanetary space travel agency.  You are 
         - After the mission is created, the user should be redirect to the scientist's detail page
         - Check that this is working correctly by verifying the new planet appears on the scientist's detail page
         
- - Build an "about" page at "/about" which should list your name and the total number of scientists and planets in your database.
